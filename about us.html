@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            box-sizing: border-box;
+            padding: 2%;
+            display: flex;
+            justify-content: center;
+            margin: 2% 10%;
+            background-color: #ffd3e8;
+            border: 2px solid rgb(69, 0, 0);
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        .info {
+            margin-left: 20px;
+            display: inline-block;
+
+        }
+
+        .info h1 {
+            font-size: 32px;
+            color: #ed2384;
+            font-family: 'Ubuntu', sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            padding-top: 0px;
+        }
+
+        .main h1 {
+            font-size: 26px;
+            color: #ed2384;
+            margin-bottom: 10px;
+        }
+
+        .main p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .main ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer h6 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid #ed2384;
+            padding: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: #ed2384;
+        }
+
+        .social-icons img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width : 985px){
+            .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="image/about us 1.jpg" alt="Food Island Logo">
+            </div>
+            <div class="info">
+                <h1>FOOD ISLAND</h1>
+                <p>Open from 11:00 AM to 1:00 AM</p>
+                <p>Call: 6123412345</p>
+                <p>Email: restaurant@gmail.com</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div>
+            <h1>About Us</h1>
+            <p>This restaurant serves a variety of Indian cuisines, including South Indian, North Indian, Chinese, Sandwiches,
+                Biryani, Fast Food, Beverages, and Desserts.</p>
+
+            <h1>Popular Dishes</h1>
+            <ul>
+                <li>Schezwan Dosa</li>
+                <li>Finger Chips</li>
+                <li>Spring Dosa</li>
+                <li>Paav Bhaji</li>
+                <li>Tawa Pulav</li>
+                <li>Pavbhaji</li>
+            </ul>
+
+            <h1>People Say This Place Is Known For</h1>
+            <p>Pocket Friendly Place, Good for Large Groups, Ample Seating Area, Family Restaurant, Best Restaurant, Relaxed
+                Atmosphere</p>
+
+            <h1>Average Cost</h1>
+            <p>₹1,000 for two people (approx.)</p>
+            <p>Exclusive of applicable taxes and charges, if any.</p>
+            <ul>
+                <li>Cash and Cards accepted</li>
+                <li>Digital payments accepted</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h6>For More Information...</h6>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/face.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/you.webp" alt="YouTube"></a>
+            <a href="#"><img src="image/twit.png" alt="Twitter"></a>
+            <a href="#"><img src="image/insta.jpg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

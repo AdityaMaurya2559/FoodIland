@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Ubuntu', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .head {
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .head h1 {
+            font-size: 50px;
+            color: rgb(0, 200, 255);
+            text-decoration: underline gray;
+            margin-top: 30px;
+        }
+
+        .head p {
+            margin-top: 30px;
+            font-size: 20px;
+            color: rgb(92, 92, 92);
+        }
+
+        .FlexBox {
+            padding: 2%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+        .main {
+            flex-basis: 40%;
+            font-size: 25px;
+            margin-left: 10%;
+        }
+
+        input {
+            width: 80%;
+            font-size: 23px;
+            margin-top: 2px;
+            width: 100%;
+        }
+
+        textarea {
+            font-size: 23px;
+            margin-top: 2px;
+        }
+
+        .one {
+            width: 10cm;
+            height: 1.5cm;
+        }
+
+        .tenth img {
+            margin-top: 1cm;
+            border-radius: 50%;
+            padding: 10px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid #ed2384;
+            margin: 20px;
+        }
+
+        .last {
+            margin-left: 15cm;
+            margin-bottom: 2cm;
+
+        }
+
+        footer h6 {
+            margin-top: 2cm;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+        }
+
+        .font {
+            text-align: center;
+            font-size: 30px;
+            color: rgb(66, 34, 34);
+        }
+        @media (max-width : 985px){
+            .FlexBox {
+            padding: 2%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+       
+        .main {
+            width: 85%;
+            padding-left: 1px;
+            padding-top: 47px;
+            padding-bottom: 1px;
+            font-size: 25px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+        <h1>
+            Contact Us
+        </h1>
+        <p>
+            Need to contact with us fill this form , either you can email on the below email Id or you can call on the
+            given number .
+        </p>
+    </div>
+
+    <div class="FlexBox">
+        <div class="image">
+            <img src="image/contact us.png">
+        </div>
+
+        <div class="main">
+            <form>
+                <label>First Name</label><br>
+                <input type="text" name="information" placeholder="Enter your Name" required><br><br>
+                <label>Last Name </label><br>
+                <input type="text" name="information" placeholder="Enter your Surname" required><br><br>
+                <label> Email</label><br>
+                <input type="email" name="information" placeholder="Enter your Email" required><br><br>
+                <label> What can we help you with?</label><br>
+                <textarea placeholder="Type......"></textarea><br><br>
+                <a href="thankyou.html"><input type="button" value="Submit"></a><br><br>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="font">
+        <ul>
+            <li>Call:6123412345</li>
+            <li> Email:resturant@gmail.com</li>
+        </ul>
+    </div>
+
+    <footer>
+        <h6>
+            Connect with us on..........
+        </h6>
+            <div align="center">
+              <a href="https://www.facebook.com/"><img src="image\face.png" alt="facebook" width="50" height="50"></img>
+              </a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="https://www.youtube.com/" target="_blank"><img src="image\you.webp" alt="youtube" width="50"
+                  height="50"></img> </a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="#"><img src="image\twit.png" alt="twiter" width="50" height="50"></img> </a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="#"><img src="image\insta.jpg" alt="instagram" width="50" height="50"></img> </a>
+              &nbsp;&nbsp;&nbsp;
+            </div>
+          </footer>
+    </footer>
+
+
+</body>
+
+</html>
